@@ -1,0 +1,25 @@
+nav {
+    text-align: right;
+    text-align-last: right;
+}
+
+Body {
+
+    background-color: lightgrey;
+    color: black;
+
+}
+
+#t_container{
+
+    text-align: center;
+    text-align-last: center;
+
+}
+
+#tnd_container {
+
+    text-align: center;
+    text-align-last: center;
+
+}
