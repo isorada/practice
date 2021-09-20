@@ -1,56 +1,71 @@
 <!DOCTYPE HTML>
-
+<HTML lang='en'>
+<!-- Head -->
     <head>
 
         <title>HOME</title>
-
+    <!-- Content-type & UTF8  -->
         <meta content='text/html; charset=utf-8' http-equiv='Content-Type' />
-        <meta http-equiv="refresh">
+    <!-- Device Scale -->
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <!-- Author -->
         <meta name='author' content='やく' />
-
+    <!-- CSS -->
         <link href='./css/stylesheet.css' rel='stylesheet'>
 
     </head>
+<!-- EndofLn -->
 
-    <body>
-
+<!-- Body -->
+    <body onload='sTime()'>
+    
+    <!-- Header for Nav -->
         <header>
-
             <nav>
             
-                <a href='about.html'>About</a>
-                <a href='https://github.com/isora69'>GitHub</a>
+                <a href='socials.html'>Socials</a>
+                <a href='https://github.com/isorada'>GitHub</a>
 
             </nav>
-            
         </header>
+<!-- EndofLn -->
 
-            <hr style='overflow: hidden;'>
+        <hr>
 
+    <!-- Contains Introductions -->
         <div id='t_container'>
-            
+
+            <!--               Introduction                  -->
             <div> <h1> Hello and Welcome to my web! </h1> </div>
 
+            <!--                         Description                              -->
             <div> <h3> This website contains my project since day 1 to ? </h3> </div>
 
         </div>
+<!-- EndofLn -->
 
-        <hr style='overflow: hidden;'>
+        <hr>
 
+    <!-- Contains Time and Date -->
         <div id='tnd_container'> 
             
-            <div> <h2>Date/Time: <span id='tnd'> </span> </h2> <script src='./js/tnd.js'> </script> </div> 
+            <!--         DATE                |              Time                       |                            JS                          -->
+            <div> <h2> Date: <span id='date'> </span> </h2> <h3> Time: <span id='time'> </span> </h3> <script src='./js/datentime.js'> </script> </div> 
 
         </div>
+<!-- EndofLn -->
 
-        <hr style='overflow: hidden;'>
+        <hr>
 
+    <!-- Contains List of Project -->
         <div id='list_container'> 
             
+            <!--            Day                          Title                    -->
             <div> <h3> <i> Day 1: <a href='./index.html'> Home </a> </i> </h3> </div> 
-        
+
         </div>
+
+<!-- EndofLn -->
 
     </body>
 
